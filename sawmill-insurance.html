@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sawmill Insurance | Free Review | Forest Products Coverage</title>
-<meta name="description" content="Free sawmill insurance review. Coverage for sawmills, planing mills, and wood products manufacturers &#8212; fire-load property, machinery, products liability, and workers' comp. Compare specialty carriers before renewal." />
+<title>Sawmill Insurance | Forest Products Coverage</title>
+<meta name="description" content="Free sawmill insurance review. Coverage for sawmills, planing mills, and wood products manufacturers — fire-load property, machinery, products liability, and workers' comp. Compare specialty carriers before renewal." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Forest Products Coverage" />
-<meta property="og:title" content="Sawmill Insurance | Free Review | Forest Products Coverage" />
-<meta property="og:description" content="Free sawmill insurance review. Coverage for sawmills, planing mills, and wood products manufacturers &#8212; fire-load property, machinery, products liability, and workers' comp. Compare specialty carriers before renewal." />
+<meta property="og:title" content="Sawmill Insurance | Forest Products Coverage" />
+<meta property="og:description" content="Free sawmill insurance review. Coverage for sawmills, planing mills, and wood products manufacturers — fire-load property, machinery, products liability, and workers' comp. Compare specialty carriers before renewal." />
 <meta property="og:url" content="https://forestproductscoverage.com/sawmill-insurance.html" />
 <meta property="og:image" content="https://forestproductscoverage.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
@@ -16,9 +16,47 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) — GA4 + Google Ads (standard across all pages) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R7ELWF1VEL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R7ELWF1VEL');
+  gtag('config', 'AW-17934471659');
+</script>
+<!-- Procure click-source capture: stores gclid/UTM on landing, attaches to the form -->
+<script>
+(function(){
+  try{
+    var qs = new URLSearchParams(window.location.search);
+    var keys = ['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+    var store = {};
+    try{ var c=(document.cookie.match(/(?:^|; )pm_attr=([^;]*)/)||[])[1]; if(c) store=JSON.parse(decodeURIComponent(c))||{}; }catch(e){ store={}; }
+    var got=false;
+    keys.forEach(function(k){ var v=qs.get(k); if(v){ store[k]=v; got=true; } });
+    if(got || !store.landing){
+      if(!store.landing) store.landing=window.location.pathname;
+      if(!store.referrer) store.referrer=document.referrer||'';
+      document.cookie='pm_attr='+encodeURIComponent(JSON.stringify(store))+'; path=/; max-age=7776000; SameSite=Lax';
+    }
+    function fill(){
+      var f=document.querySelector('form'); if(!f) return;
+      Object.keys(store).forEach(function(k){
+        if(store[k] && !f.querySelector('[name="'+k+'"]')){
+          var i=document.createElement('input'); i.type='hidden'; i.name=k; i.value=store[k]; f.appendChild(i);
+        }
+      });
+    }
+    if(document.readyState!=='loading') fill(); else document.addEventListener('DOMContentLoaded', fill);
+  }catch(e){}
+})();
+</script>
 <style>
 :root{
   --navy:#0B3558;--navy-dark:#07253D;--gold:#F4A621;--gold-dark:#D88D13;
+  --accent:#F4A621;--accent-dark:#D88D13;
   --light:#F7F9FC;--text:#142132;--muted:#6E7A8A;--line:#E5EBF2;
   --radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--container:1180px;
 }
@@ -33,16 +71,16 @@ img{max-width:100%;}
 .nav-inner{height:82px;display:flex;align-items:center;justify-content:space-between;}
 .logo{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);font-size:22px;}
 .logo-box{width:42px;height:42px;border-radius:10px;background:var(--navy);display:flex;align-items:center;justify-content:center;color:var(--gold);}
-.logo-box svg{width:24px;height:24px;}
+.logo-box svg{width:25px;height:25px;}
 .nav-right{display:flex;align-items:center;gap:22px;}
 .nav-phone{font-weight:800;color:var(--navy);font-size:17px;white-space:nowrap;}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 28px;border-radius:12px;font-weight:800;transition:.2s ease;cursor:pointer;border:none;}
-.btn-primary{background:var(--gold);color:#111;}
-.btn-primary:hover{background:var(--gold-dark);transform:translateY(-2px);}
-.hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(244,166,33,.16), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
+.hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
 .hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
-.hero-title{font-size:clamp(40px,4.8vw,62px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
+.hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
 .hero p{font-size:20px;color:#D3DCE7;max-width:700px;}
 .mini-proof{margin-top:16px;font-size:13px;line-height:1.6;color:#C7D8E7;font-weight:500;opacity:.92;}
@@ -50,9 +88,11 @@ img{max-width:100%;}
 .hero-points div{display:flex;align-items:flex-start;gap:12px;color:#fff;font-size:16px;}
 .hero-points span{color:var(--gold);font-weight:800;}
 .trust-line{margin:8px 0 26px;font-size:14px;color:#C7D8E7;font-weight:500;}
-.form-card{background:#fff;border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);color:var(--text);}
-.form-card h3{font-size:28px;margin-bottom:10px;line-height:1.1;}
-.form-card > p{color:var(--muted);font-size:15px;margin-bottom:16px;}
+.form-card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);color:var(--text);overflow:hidden;}
+.form-head{background:var(--accent);color:#fff;padding:24px 32px;}
+.form-head h3{font-size:25px;line-height:1.12;margin-bottom:6px;color:#fff;}
+.form-head p{color:rgba(255,255,255,.9);font-size:14px;}
+.form-body{padding:28px 32px 32px;}
 .form-stats{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:20px;}
 .form-stat{flex:1;text-align:center;padding:10px 8px;border-right:1px solid var(--line);}
 .form-stat:last-child{border-right:none;}
@@ -74,7 +114,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy);}
 .tcpa a{color:#7B8794;text-decoration:underline;}
 .stats{background:var(--navy);padding:40px 0;}
 .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center;}
-.stat h2{color:#fff;font-size:42px;font-weight:800;}
+.stat h2{color:#fff;font-size:38px;font-weight:800;}
 .stat h2 span{color:var(--gold);}
 .stat p{color:#BFD0E0;text-transform:uppercase;letter-spacing:1px;font-size:12px;font-weight:700;margin-top:8px;}
 .section{padding:90px 0;}
@@ -86,7 +126,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy);}
 .review-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:34px;box-shadow:var(--shadow);transition:.2s ease;}
 .review-card:hover{transform:translateY(-4px);}
 .review-icon{width:58px;height:58px;border-radius:16px;background:#F4F7FB;display:flex;align-items:center;justify-content:center;font-size:26px;margin-bottom:22px;}
-.review-card h3{font-size:24px;line-height:1.2;margin-bottom:14px;color:var(--navy-dark);}
+.review-card h3{font-size:23px;line-height:1.2;margin-bottom:14px;color:var(--navy-dark);}
 .review-card p{color:var(--muted);line-height:1.7;font-size:16px;}
 .seg-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:920px;margin:0 auto;}
 .seg-item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;gap:12px;align-items:flex-start;box-shadow:0 8px 18px rgba(16,32,51,.04);}
@@ -105,7 +145,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy);}
 .faq-item p{color:var(--muted);}
 .final-cta{background:var(--navy);padding:90px 20px;text-align:center;}
 .cta-box{max-width:820px;margin:0 auto;}
-.final-cta h2{color:#fff;font-size:clamp(34px,4.4vw,58px);line-height:1.1;margin:24px 0;}
+.final-cta h2{color:#fff;font-size:clamp(34px,4.4vw,56px);line-height:1.1;margin:24px 0;}
 .final-cta p{color:#d7e4ef;font-size:22px;line-height:1.6;margin-bottom:34px;}
 .final-cta .btn{padding:18px 34px;font-size:18px;margin-top:10px;}
 footer{background:#071C2E;color:#A7BED1;padding:70px 0 30px;}
@@ -114,6 +154,20 @@ footer h4{color:#fff;margin-bottom:18px;}
 footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 .footer-disclaimer{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;font-size:12px;line-height:1.6;color:#7B92A6;margin-bottom:18px;}
 .footer-bottom{font-size:13px;}
+.article{max-width:820px;margin:0 auto;padding:70px 0;}
+.article h1{font-size:clamp(30px,4vw,46px);color:var(--navy);line-height:1.12;margin-bottom:18px;}
+.article .lede{font-size:19px;color:var(--muted);margin-bottom:30px;}
+.article h2{color:var(--navy);font-size:26px;margin:34px 0 12px;}
+.article p{color:#39485B;font-size:17px;margin-bottom:16px;}
+.article .back{display:inline-block;margin-top:30px;font-weight:700;color:var(--accent);}
+.legal{max-width:820px;margin:0 auto;padding:70px 0;}
+.legal h1{font-size:38px;color:var(--navy);margin-bottom:10px;}
+.legal h2{color:var(--navy);font-size:22px;margin:28px 0 10px;}
+.legal p{color:#39485B;margin-bottom:14px;}
+.thanks{max-width:680px;margin:0 auto;padding:110px 24px;text-align:center;}
+.thanks .badge{width:84px;height:84px;border-radius:50%;background:rgba(244,166,33,.15);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 26px;}
+.thanks h1{font-size:40px;color:var(--navy);margin-bottom:16px;}
+.thanks p{font-size:19px;color:var(--muted);margin-bottom:14px;}
 @media(max-width:980px){
 .hero-grid,.review-grid,.how-grid,.footer-grid,.stats-grid,.seg-grid{grid-template-columns:1fr;}
 .form-grid{grid-template-columns:1fr;}
@@ -128,57 +182,77 @@ footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 </head>
 <body>
 <div class="top-bar">Insurance reviews for logging contractors, sawmills, planing mills, lumber yards, and wood products manufacturers.</div>
-<header class="nav"><div class="container nav-inner">
-<a href="/" class="logo"><div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg></div>Forest Products Coverage</a>
-<div class="nav-right"><a href="tel:18555550123" class="nav-phone">(855) 555-0123</a><a href="#form" class="btn btn-primary">Get My Free Review &#8594;</a></div>
-</div></header>
-<section class="hero"><div class="container hero-grid">
+
+<header class="nav">
+<div class="container nav-inner">
+<a href="/" class="logo">
+<div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg></div>
+Forest Products Coverage
+</a>
+<div class="nav-right">
+<a href="tel:18555550123" class="nav-phone">(855) 555-0123</a>
+<a href="#form" class="btn btn-primary">Get My Free Review →</a>
+</div>
+</div>
+</header>
+
+<section class="hero">
+<div class="container hero-grid">
 <div>
 <div class="eyebrow">Sawmill Insurance</div>
 <h1 class="hero-title">Free <span class="highlight">Sawmill Insurance</span> Review.</h1>
 <p>Sawmills carry serious fire load and expensive machinery, and most carriers misprice the risk. We compare specialty forest products markets to find the right coverage at the right price for your mill.</p>
 <p class="mini-proof">For sawmills, planing mills, remanufacturers, and wood products manufacturers.</p>
-<div class="hero-points"><div><span>&#10003;</span> Compare carriers that understand sawmill fire and machinery risk</div><div><span>&#10003;</span> Buildings, kilns, and inventory valued correctly</div><div><span>&#10003;</span> Products liability for the lumber and products you sell</div><div><span>&#10003;</span> Free, fast, and no obligation</div></div>
-<p class="trust-line">Built for mills of every size, from a single mill to multi-site operations.</p>
-<a href="#form" class="btn btn-primary">Get My Free Review &#8594;</a>
+<div class="hero-points">
+<div><span>✓</span> Compare your current premium against specialty forest products markets</div>
+<div><span>✓</span> Spot coverage gaps across property, equipment, and liability</div>
+<div><span>✓</span> One quick request — no giant application to begin</div>
+<div><span>✓</span> No cost, no obligation, no pressure</div>
 </div>
+<p class="trust-line">Built for the whole forest products supply chain — from the woods to the mill to the yard.</p>
+<a href="#form" class="btn btn-primary">Get My Free Review →</a>
+</div>
+
 <div class="form-card" id="form">
+<div class="form-head">
 <h3>Request Your Free Sawmill Insurance Review</h3>
-<p>Submit the basics below. A forest products insurance specialist follows up &#8212; no obligation to switch.</p>
+<p>Submit the basics below. A forest products insurance specialist follows up — no obligation to switch.</p>
+</div>
+<div class="form-body">
 <div class="form-stats">
-<div class="form-stat"><strong>$0</strong><span>To Compare</span></div>
-<div class="form-stat"><strong>Woods&#8594;Mill</strong><span>Full Chain</span></div>
-<div class="form-stat"><strong>All</strong><span>Operation Types</span></div>
-<div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
+  <div class="form-stat"><strong>$0</strong><span>To Compare</span></div>
+  <div class="form-stat"><strong>Woods→Mill</strong><span>Full Chain</span></div>
+  <div class="form-stat"><strong>All</strong><span>Operation Types</span></div>
+  <div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
 </div>
 <form action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST">
   <input type="hidden" name="lead_source" value="forestproductscoverage.com/sawmill-insurance" />
   <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <input type="hidden" name="site" value="forestproductscoverage.com" />
   <input type="hidden" name="vertical" value="Forest Products Insurance" />
   <input type="hidden" name="_redirect" value="https://forestproductscoverage.com/thank-you.html" />
-
 <div class="form-grid">
-<div>
+<div class="">
 <label class="field-label" for="first_name">First Name</label>
 <input id="first_name" type="text" name="first_name" autocomplete="given-name" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="last_name">Last Name</label>
 <input id="last_name" type="text" name="last_name" autocomplete="family-name" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="phone">Phone</label>
 <input id="phone" type="tel" name="phone" placeholder="(555) 555-5555" autocomplete="tel" inputmode="tel" pattern="[\d\s\-\(\)\.]{10,20}" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="email">Email</label>
 <input id="email" type="email" name="email" autocomplete="email" required>
 </div>
 <div class="full">
 <label class="field-label" for="company">Business Name</label>
-<input id="company" type="text" name="company" autocomplete="organization" placeholder="Optional">
+<input id="company" type="text" name="company" placeholder="Optional" autocomplete="organization">
 </div>
-<div>
+<div class="">
 <label class="field-label" for="operation_type">Operation Type</label>
 <select id="operation_type" name="operation_type" required>
 <option value="">Select one</option>
@@ -193,11 +267,11 @@ footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 <option>Other</option>
 </select>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="state">State</label>
 <input id="state" type="text" name="state" placeholder="e.g. ID" autocomplete="address-level1">
 </div>
-<div>
+<div class="">
 <label class="field-label" for="employees">Employees</label>
 <select id="employees" name="employees">
 <option value="">Select one</option>
@@ -208,80 +282,264 @@ footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 <option>51+</option>
 </select>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="renewal_date">Renewal Date</label>
 <input id="renewal_date" type="date" name="renewal_date">
 </div>
 <div class="full">
-<label class="field-label" for="notes">Tell us about your operation</label>
-<textarea id="notes" name="operation_details" placeholder="Example: timber harvesting crew with skidders and loaders; sawmill with planing operation; lumber yard with delivery trucks; etc."></textarea>
+<label class="field-label" for="operation_details">Tell us about your operation</label>
+<textarea id="operation_details" name="operation_details" placeholder="Example: timber harvesting crew with skidders and loaders; sawmill with planing operation; lumber yard with delivery trucks; etc."></textarea>
 </div>
 <div class="full">
-<p style="font-weight:700; color:#142132; margin:4px 0 14px; font-size:16px;">
-Most forest products operations find savings or a coverage gap in the first review.
-</p>
+<p style="font-weight:700; color:#142132; margin:4px 0 14px; font-size:16px;">Most forest products operations find savings or a coverage gap in the first review.</p>
 <button class="btn btn-primary submit-btn" type="submit">Get My Free Review →</button>
 <div class="trust-strip"><span class="tbadge">🔒 SSL Secured</span><span class="tbadge">✓ TCPA-Compliant Consent</span><span class="tbadge">🚫 Never Sold or Shared</span><span class="tbadge">✓ Free &amp; No Obligation</span></div>
 <p class="secondary-label">Want us to review any other coverage?</p>
 <div class="secondary-services-grid">
 <label><input type="checkbox" name="also_review[]" value="Workers' Comp"> Workers' Comp</label>
-<label><input type="checkbox" name="also_review[]" value="Commercial Auto / Log Trucking"> Commercial Auto</label>
-<label><input type="checkbox" name="also_review[]" value="Property & Buildings"> Property &amp; Buildings</label>
-<label><input type="checkbox" name="also_review[]" value="Equipment / Inland Marine"> Equipment</label>
+<label><input type="checkbox" name="also_review[]" value="Commercial Auto / Log Trucking"> Commercial Auto / Log Trucking</label>
+<label><input type="checkbox" name="also_review[]" value="Property &amp; Buildings"> Property &amp; Buildings</label>
+<label><input type="checkbox" name="also_review[]" value="Equipment / Inland Marine"> Equipment / Inland Marine</label>
 </div>
 </div>
 </div>
-<div class="tcpa">
-By clicking "Get My Free Review," you agree to be contacted by The Partners Group and its representatives via phone call, text message, and email regarding forest products insurance and related products or services using automated technology at the contact information provided, even if your number is listed on a state or federal Do Not Call list. Consent is not a condition of purchase. Message and data rates may apply. View our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>.
-</div>
+<div class="tcpa">By clicking "Get My Free Review," you agree to be contacted by The Partners Group and its representatives via phone call, text message, and email regarding forest products insurance and related products or services using automated technology at the contact information provided, even if your number is listed on a state or federal Do Not Call list. Consent is not a condition of purchase. Message and data rates may apply. View our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>.</div>
 </form>
 </div>
-</div></section>
-<section class="stats"><div class="container stats-grid">
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div class="container stats-grid">
 <div class="stat"><h2><span>$0</span></h2><p>Cost To Compare Your Rate</p></div>
-<div class="stat"><h2><span>Woods&#8594;Mill</span></h2><p>Whole Supply Chain</p></div>
+<div class="stat"><h2><span>Woods→Mill</span></h2><p>Whole Supply Chain</p></div>
 <div class="stat"><h2><span>All</span></h2><p>Operation Types Served</p></div>
 <div class="stat"><h2><span>48</span></h2><p>States Across The Lower 48</p></div>
-</div></section>
-<section class="section" id="coverage"><div class="container">
-<div class="section-head"><div class="eyebrow">What We Review</div><h2>Sawmill Insurance coverage, reviewed before renewal.</h2>
-<p>Forest products operations carry risks most carriers misprice. Here's what a review looks at.</p></div>
-<div class="review-grid"><div class="review-card"><div class="review-icon">&#127981;</div><h3>Property &amp; Buildings</h3><p>Mills, kilns, dry sheds, and storage &#8212; reviewed for fire load, sawdust exposure, and replacement values.</p></div><div class="review-card"><div class="review-icon">&#9881;</div><h3>Machinery &amp; Equipment</h3><p>Saws, edgers, planers, conveyors, and mill machinery, owned or financed.</p></div><div class="review-card"><div class="review-icon">&#127981;</div><h3>General &amp; Products Liability</h3><p>Premises exposure plus products liability for the lumber and wood products you manufacture and sell.</p></div><div class="review-card"><div class="review-icon">&#128119;</div><h3>Workers' Compensation</h3><p>Mill labor is high-hazard. We review class codes, mod, and specialty markets.</p></div></div>
-</div></section>
-<section class="section how-section"><div class="container">
-<div class="section-head"><div class="eyebrow">Who We Cover</div><h2>Built for the forest products supply chain.</h2></div>
-<div class="seg-grid"><div class="seg-item"><span class="check">&#10003;</span><div><strong>Sawmills</strong><span>Band, circular, and portable sawmills.</span></div></div><div class="seg-item"><span class="check">&#10003;</span><div><strong>Planing Mills</strong><span>Planing, surfacing, and finishing operations.</span></div></div><div class="seg-item"><span class="check">&#10003;</span><div><strong>Remanufacturers</strong><span>Lumber remanufacturing and dimension producers.</span></div></div><div class="seg-item"><span class="check">&#10003;</span><div><strong>Wood Products Mfg</strong><span>Pallets, boards, and finished wood products.</span></div></div></div>
-</div></section>
-<section class="section"><div class="container">
-<div class="section-head"><div class="eyebrow">How It Works</div>
+</div>
+</section>
+
+<section class="section" id="services">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">What We Review</div>
+<h2>Forest products coverage, reviewed before renewal.</h2>
+<p>The forest products industry carries risks most carriers misprice — fire load, heavy equipment, high-hazard labor, and trucking. We review your whole program for savings and gaps.</p>
+</div>
+<div class="review-grid">
+<div class="review-card">
+<div class="review-icon">🪵</div>
+<h3>Property &amp; Buildings</h3>
+<p>Mills, yards, kilns, and storage — reviewed for fire load, sawdust exposure, and accurate replacement values.</p>
+</div>
+<div class="review-card">
+<div class="review-icon">⚙️</div>
+<h3>Equipment &amp; Inland Marine</h3>
+<p>Skidders, feller bunchers, loaders, mill machinery, and chainsaws — owned, financed, leased, or rented.</p>
+</div>
+<div class="review-card">
+<div class="review-icon">🛡️</div>
+<h3>General Liability</h3>
+<p>Premises and operations exposure for crews, mills, and yards, matched to your contracts and work.</p>
+</div>
+<div class="review-card">
+<div class="review-icon">👷</div>
+<h3>Workers' Compensation</h3>
+<p>High-hazard logging and mill labor is hard to place. We review class codes, mod, and competitive markets.</p>
+</div>
+<div class="review-card">
+<div class="review-icon">🚛</div>
+<h3>Commercial Auto &amp; Log Trucking</h3>
+<p>Log trucks, delivery fleets, and hauling exposure — liability, physical damage, and filings.</p>
+</div>
+<div class="review-card">
+<div class="review-icon">🏭</div>
+<h3>Products Liability</h3>
+<p>For sawmills and wood products manufacturers — coverage for the lumber and products you produce and sell.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section how-section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Who We Cover</div>
+<h2>The whole forest products supply chain.</h2>
+<p>From the crew in the woods to the mill to the lumber yard, each operation gets underwritten differently. We point you toward the markets that fit.</p>
+</div>
+<div class="seg-grid">
+<div class="seg-item"><span class="check">✓</span><div><strong>Logging &amp; timber harvesting</strong><span>Contractors, crews, and harvesting operations.</span></div></div>
+<div class="seg-item"><span class="check">✓</span><div><strong>Sawmills &amp; planing mills</strong><span>Cutting, milling, and remanufacturing operations.</span></div></div>
+<div class="seg-item"><span class="check">✓</span><div><strong>Lumber yards</strong><span>Retail and wholesale lumber and building material dealers.</span></div></div>
+<div class="seg-item"><span class="check">✓</span><div><strong>Wood products manufacturers</strong><span>Dimensional lumber, boards, and finished wood products.</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">How It Works</div>
 <h2>Three steps. No giant application to begin.</h2>
-<p>You send the basics. We do the legwork and point you toward the right coverage and pricing.</p></div>
+<p>You send the basics. We do the legwork and point you toward the right coverage and pricing.</p>
+</div>
 <div class="how-grid">
-<div class="how-card"><div class="step-badge">01</div><div class="how-icon">&#128196;</div><h3>Submit the basics</h3><p>Contact info, operation type, state, size, renewal date, and a short description of your operation.</p></div>
-<div class="how-card"><div class="step-badge">02</div><div class="how-icon">&#128269;</div><h3>We review the risk</h3><p>A forest products specialist reviews your operation, equipment, payroll, and trucking against specialty markets.</p></div>
-<div class="how-card"><div class="step-badge">03</div><div class="how-icon">&#9989;</div><h3>You compare options</h3><p>You get matched with available markets and quote options &#8212; so you can see if you're overpaying.</p></div>
-</div></div></section>
-<section class="section how-section"><div class="container">
-<div class="section-head"><div class="eyebrow">Common Questions</div><h2>Sawmill Insurance FAQ</h2></div>
-<div class="faq"><div class="faq-item"><h3>Why does sawmill insurance focus so much on fire?</h3><p>Sawdust, wood storage, and kilns create significant fire load, so carriers weigh fire protection heavily. Good housekeeping and the right carrier can meaningfully lower your premium.</p></div><div class="faq-item"><h3>Do I need products liability?</h3><p>If you manufacture and sell lumber or wood products, products liability protects against claims tied to the products you produce. We review whether your limits fit your output.</p></div><div class="faq-item"><h3>Is business interruption worth adding?</h3><p>For mills, a fire or breakdown can halt production for months. Business interruption coverage replaces lost income &#8212; we review whether it fits your operation.</p></div><div class="faq-item"><h3>Is mill machinery covered if it breaks down?</h3><p>Equipment breakdown coverage can apply to mill machinery. We confirm what's covered and compare carriers that write it competitively.</p></div></div>
-</div></section>
-<section class="final-cta"><div class="container"><div class="cta-box">
-<div class="eyebrow">No Cost &#8226; No Obligation &#8226; No Pressure</div>
+<div class="how-card">
+<div class="step-badge">01</div>
+<div class="how-icon">📄</div>
+<h3>Submit the basics</h3>
+<p>Enter your contact info, operation type, state, size, renewal date, and a short description of your operation.</p>
+</div>
+<div class="how-card">
+<div class="step-badge">02</div>
+<div class="how-icon">🔍</div>
+<h3>We review the risk</h3>
+<p>A forest products specialist reviews your operation, equipment, payroll, trucking, and timing against specialty markets.</p>
+</div>
+<div class="how-card">
+<div class="step-badge">03</div>
+<div class="how-icon">✅</div>
+<h3>You compare options</h3>
+<p>You get matched with available markets and quote options — so you can see if you're overpaying.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section how-section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Common Questions</div>
+<h2>Sawmill Insurance FAQ</h2>
+</div>
+<div class="faq">
+<div class="faq-item">
+<h3>Why does sawmill insurance focus so much on fire?</h3>
+<p>Sawdust, wood storage, and kilns create significant fire load, so carriers weigh fire protection heavily. Good housekeeping and the right carrier can meaningfully lower your premium.</p>
+</div>
+<div class="faq-item">
+<h3>Do I need products liability?</h3>
+<p>If you manufacture and sell lumber or wood products, products liability protects against claims tied to the products you produce. We review whether your limits fit your output.</p>
+</div>
+<div class="faq-item">
+<h3>Is business interruption worth adding?</h3>
+<p>For mills, a fire or breakdown can halt production for months. Business interruption coverage replaces lost income — we review whether it fits your operation.</p>
+</div>
+<div class="faq-item">
+<h3>Is mill machinery covered if it breaks down?</h3>
+<p>Equipment breakdown coverage can apply to mill machinery. We confirm what's covered and compare carriers that write it competitively.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="final-cta">
+<div class="container">
+<div class="cta-box">
+<div class="eyebrow">No Cost • No Obligation • No Pressure</div>
 <h2>Request Your Free Sawmill Insurance Review</h2>
 <p>See if you're overpaying before your renewal locks you into another year. One quick request and a specialist follows up.</p>
-<a href="#form" class="btn btn-primary">Get My Free Review &#8594;</a>
-</div></div></section>
-<footer id="contact"><div class="container"><div class="footer-grid">
-<div><div class="logo" style="color:#fff;margin-bottom:20px"><div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg></div>Forest Products Coverage</div>
-<p>Free insurance reviews for the forest products industry &#8212; logging, sawmills, lumber yards, and wood products manufacturers.</p></div>
-<div><h4>Operations</h4><a href="/logging-contractor-insurance.html">Logging Insurance</a><a href="/sawmill-insurance.html">Sawmill Insurance</a><a href="/lumber-yard-insurance.html">Lumber Yard Insurance</a></div>
-<div><h4>Coverage</h4><a href="/#coverage">Property &amp; Equipment</a><a href="/#coverage">Workers' Comp</a><a href="/#coverage">Log Trucking</a></div>
-<div><h4>Contact</h4><a href="tel:18555550123">(855) 555-0123</a><a href="mailto:reviews@forestproductscoverage.com">reviews@forestproductscoverage.com</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms.html">Terms &amp; Conditions</a></div>
+<a href="#form" class="btn btn-primary">Get My Free Review →</a>
+</div>
+</div>
+</section>
+
+<footer id="contact">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="logo" style="color:#fff;margin-bottom:20px">
+<div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg></div>
+Forest Products Coverage
+</div>
+<p>Free insurance reviews for the forest products industry — logging, sawmills, lumber yards, and wood products manufacturers.</p>
+</div>
+<div>
+<h4>Coverage</h4>
+<a href="/#services">Property &amp; Equipment</a>
+<a href="/#services">Workers' Comp</a>
+<a href="/#services">Log Trucking</a>
+</div>
+<div>
+<h4>Operations</h4>
+<a href="/logging-contractor-insurance.html">Logging Insurance</a>
+<a href="/sawmill-insurance.html">Sawmill Insurance</a>
+<a href="/lumber-yard-insurance.html">Lumber Yard Insurance</a>
+</div>
+<div>
+<h4>Contact</h4>
+<a href="tel:18555550123">(855) 555-0123</a>
+<a href="mailto:reviews@forestproductscoverage.com">reviews@forestproductscoverage.com</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms &amp; Conditions</a>
+</div>
 </div>
 <div class="footer-disclaimer">This website is for lead generation and referral purposes. Coverage availability, terms, and pricing vary by carrier, state, and underwriting review. Submitting a request does not bind, alter, or guarantee coverage.</div>
-<div class="footer-bottom">&#169; 2026 Forest Products Coverage. All rights reserved.</div>
-</div></footer>
+<div class="footer-bottom">© 2026 Forest Products Coverage. All rights reserved.</div>
+</div>
+</footer>
+
 <script>
-document.addEventListener("DOMContentLoaded",function(){var p=document.querySelector('input[name="phone"]');if(p){p.addEventListener("input",function(e){var v=e.target.value.replace(/\D/g,"").slice(0,10);if(v.length>6){e.target.value="("+v.slice(0,3)+") "+v.slice(3,6)+"-"+v.slice(6);}else if(v.length>3){e.target.value="("+v.slice(0,3)+") "+v.slice(3);}else if(v.length>0){e.target.value="("+v;}});}});
+document.addEventListener("DOMContentLoaded", function () {
+  const phoneInput = document.querySelector('input[name="phone"]');
+  if (phoneInput) {
+    phoneInput.addEventListener("input", function (e) {
+      let value = e.target.value.replace(/\D/g, "");
+      if (value.charAt(0) === "1") value = value.slice(1); // strip US country code — no area code starts with 1
+      value = value.slice(0, 10);
+      if (value.length > 6) {
+        e.target.value = `(${value.slice(0, 3)}) ${value.slice(3, 6)}-${value.slice(6)}`;
+      } else if (value.length > 3) {
+        e.target.value = `(${value.slice(0, 3)}) ${value.slice(3)}`;
+      } else if (value.length > 0) {
+        e.target.value = `(${value}`;
+      }
+    });
+  }
+});
 </script>
-</body></html>
+<!-- Procure form analytics — GA4 funnel events (no PII to GA) + partial capture to separate DB -->
+<script>
+(function(){
+  var form = document.querySelector('form'); if(!form) return;
+  var ENDPOINT = 'https://procure-lead-engine.dan-fda.workers.dev/partial';
+  var SITE = 'forestproductscoverage.com';
+  var SKIP = {_gotcha:1,_redirect:1,site:1,lead_source:1,vertical:1,pm_sid:1,gclid:1,gbraid:1,wbraid:1,utm_source:1,utm_medium:1,utm_campaign:1,utm_term:1,utm_content:1};
+  var FIELDS = [];
+  Array.prototype.forEach.call(form.querySelectorAll('[name]'), function(el){
+    var n=el.name; if(!n||SKIP[n]||el.type==='hidden') return; if(FIELDS.indexOf(n)<0) FIELDS.push(n);
+  });
+  var sid;
+  try { sid = sessionStorage.getItem('pm_sid'); if(!sid){ sid = (window.crypto && crypto.randomUUID ? crypto.randomUUID() : (Date.now()+'-'+Math.random())); sessionStorage.setItem('pm_sid', sid); } }
+  catch(e){ sid = Date.now()+'-'+Math.random(); }
+  var attr = {};
+  try { var c=(document.cookie.match(/(?:^|; )pm_attr=([^;]*)/)||[])[1]; if(c) attr=JSON.parse(decodeURIComponent(c))||{}; } catch(e){}
+  if(!form.querySelector('[name="pm_sid"]')){ var h=document.createElement('input'); h.type='hidden'; h.name='pm_sid'; h.value=sid; form.appendChild(h); }
+  var started=false, reached={}, lastField='', t=null;
+  function v(n){ var el=form.querySelector('[name="'+n+'"]'); return el ? (el.value||'').trim() : ''; }
+  function fullname(){ return v('name') || [v('first_name'),v('last_name')].filter(Boolean).join(' '); }
+  function extra(){ var o={}, core={first_name:1,last_name:1,name:1,email:1,phone:1,association:1,community_size:1,role:1};
+    FIELDS.forEach(function(n){ if(!core[n]){ var val=v(n); if(val) o[n]=val; } }); return JSON.stringify(o); }
+  function snap(sub){ return {
+    session_id:sid, site:SITE, last_field:lastField, fields_reached:Object.keys(reached).length, submitted:sub?1:0,
+    name:fullname(), email:v('email'), phone:v('phone'),
+    association:v('association'), community_size:v('community_size'), role:v('role'), extra:extra(),
+    gclid:attr.gclid||'', utm_source:attr.utm_source||'', utm_medium:attr.utm_medium||'', utm_campaign:attr.utm_campaign||'',
+    utm_term:attr.utm_term||'', utm_content:attr.utm_content||'', landing:attr.landing||'', referrer:attr.referrer||'' }; }
+  function beacon(sub){ try{ var b=new Blob([JSON.stringify(snap(sub))],{type:'text/plain'});
+    if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT,b); else fetch(ENDPOINT,{method:'POST',body:JSON.stringify(snap(sub)),mode:'no-cors',keepalive:true}); }catch(e){} }
+  function ga(n,p){ try{ if(window.gtag) gtag('event',n,p||{}); }catch(e){} }
+  form.addEventListener('focusin', function(){ if(!started){ started=true; ga('form_start',{form:SITE}); beacon(false); } });
+  FIELDS.forEach(function(n,idx){ var el=form.querySelector('[name="'+n+'"]'); if(!el) return;
+    function mark(){ if(v(n) && !reached[n]){ reached[n]=true; lastField=n; ga('form_progress',{field_name:n, step:idx+1}); } }
+    el.addEventListener('blur', function(){ mark(); clearTimeout(t); t=setTimeout(function(){ beacon(false); },400); });
+    el.addEventListener('change', function(){ mark(); beacon(false); });
+  });
+  form.addEventListener('submit', function(){ beacon(true); });
+  window.addEventListener('pagehide', function(){ if(started) beacon(false); });
+  document.addEventListener('visibilitychange', function(){ if(document.visibilityState==='hidden' && started) beacon(false); });
+})();
+</script>
+</body>
+</html>
