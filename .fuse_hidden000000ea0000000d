@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Terms &amp; Conditions | Forest Products Coverage</title>
-<meta name="description" content="Terms &amp; Conditions for Forest Products Coverage." />
+<title>Thank You | Forest Products Coverage</title>
+<meta name="description" content="Your request has been received." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Forest Products Coverage" />
-<meta property="og:title" content="Terms &amp; Conditions | Forest Products Coverage" />
-<meta property="og:description" content="Terms &amp; Conditions for Forest Products Coverage." />
-<meta property="og:url" content="https://forestproductscoverage.com/terms.html" />
+<meta property="og:title" content="Thank You | Forest Products Coverage" />
+<meta property="og:description" content="Your request has been received." />
+<meta property="og:url" content="https://forestproductscoverage.com/thank-you.html" />
 <meta property="og:image" content="https://forestproductscoverage.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -78,7 +78,7 @@ img{max-width:100%;}
 .btn-primary{background:var(--accent);color:#fff;}
 .btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
 .hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
-.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:start;}
+.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
@@ -193,48 +193,12 @@ Forest Products Coverage
 </div>
 </div>
 </header>
-<div class="legal container">
-<h1>Terms &amp; Conditions</h1>
-<p><em>Last updated: June 9, 2026</em></p>
-<h2>Acceptance of Terms</h2><p>By using forestproductscoverage.com you agree to these terms. This website is for lead-generation and referral purposes.</p>
-<h2>No Guarantee</h2><p>Submitting a request does not bind, alter, or guarantee any product, coverage, service, pricing, or outcome. Availability and terms vary by provider and review.</p>
-<h2>Referral Relationship</h2><p>Forest Products Coverage may connect you with third-party specialists or partners who provide the requested products or services.</p>
-<h2>Limitation of Liability</h2><p>The site is provided "as is" without warranties. Forest Products Coverage is not liable for damages arising from use of the site or services obtained through it.</p>
-<h2>Contact</h2><p>Email <a href="mailto:reviews@forestproductscoverage.com">reviews@forestproductscoverage.com</a>.</p>
+<div class="thanks">
+<div class="badge">✓</div>
+<h1>Request received!</h1>
+<p>Thank you — a specialist will reach out shortly, usually within one business day.</p>
+<p><a href="/" class="btn btn-primary" style="margin-top:18px">Back to Forest Products Coverage</a></p>
 </div>
-<footer id="contact">
-<div class="container">
-<div class="footer-grid">
-<div>
-<div class="logo" style="color:#fff;margin-bottom:20px">
-<div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg></div>
-Forest Products Coverage
-</div>
-<p>Free insurance reviews for the forest products industry — logging, sawmills, lumber yards, and wood products manufacturers.</p>
-</div>
-<div>
-<h4>Coverage</h4>
-<a href="/#services">Property &amp; Equipment</a>
-<a href="/#services">Workers' Comp</a>
-<a href="/#services">Log Trucking</a>
-</div>
-<div>
-<h4>Operations</h4>
-<a href="/logging-contractor-insurance.html">Logging Insurance</a>
-<a href="/sawmill-insurance.html">Sawmill Insurance</a>
-<a href="/lumber-yard-insurance.html">Lumber Yard Insurance</a>
-</div>
-<div>
-<h4>Contact</h4>
-<a href="tel:12085142573">(208) 514-2573</a>
-<a href="mailto:reviews@forestproductscoverage.com">reviews@forestproductscoverage.com</a>
-<a href="/privacy-policy.html">Privacy Policy</a>
-<a href="/terms.html">Terms &amp; Conditions</a>
-</div>
-</div>
-<div class="footer-disclaimer">This website is for lead generation and referral purposes. Coverage availability, terms, and pricing vary by carrier, state, and underwriting review. Submitting a request does not bind, alter, or guarantee coverage.</div>
-<div class="footer-bottom">© 2026 Forest Products Coverage. All rights reserved.</div>
-</div>
-</footer>
+<script>try{gtag('event','generate_lead');}catch(e){}</script>
 </body>
 </html>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Lumber Yard Insurance | Forest Products Coverage</title>
-<meta name="description" content="Free lumber yard insurance review. Coverage for retail and wholesale lumber and building material dealers — property, inventory, general liability, delivery auto, and workers' comp. Compare carriers before renewal." />
+<title>Logging Contractor Insurance | Forest Products Coverage</title>
+<meta name="description" content="Free logging contractor insurance review. Coverage for timber harvesting crews, equipment, log trucking, and high-hazard workers' comp. Compare specialty forest products carriers before renewal." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Forest Products Coverage" />
-<meta property="og:title" content="Lumber Yard Insurance | Forest Products Coverage" />
-<meta property="og:description" content="Free lumber yard insurance review. Coverage for retail and wholesale lumber and building material dealers — property, inventory, general liability, delivery auto, and workers' comp. Compare carriers before renewal." />
-<meta property="og:url" content="https://forestproductscoverage.com/lumber-yard-insurance.html" />
+<meta property="og:title" content="Logging Contractor Insurance | Forest Products Coverage" />
+<meta property="og:description" content="Free logging contractor insurance review. Coverage for timber harvesting crews, equipment, log trucking, and high-hazard workers' comp. Compare specialty forest products carriers before renewal." />
+<meta property="og:url" content="https://forestproductscoverage.com/logging-contractor-insurance.html" />
 <meta property="og:image" content="https://forestproductscoverage.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -78,7 +78,7 @@ img{max-width:100%;}
 .btn-primary{background:var(--accent);color:#fff;}
 .btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
 .hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
-.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:start;}
+.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
@@ -199,10 +199,10 @@ Forest Products Coverage
 <section class="hero">
 <div class="container hero-grid">
 <div>
-<div class="eyebrow">Lumber Yard Insurance</div>
-<h1 class="hero-title">Free <span class="highlight">Lumber Yard Insurance</span> Review.</h1>
-<p>Lumber yards juggle property, inventory, customer foot traffic, and delivery fleets — and rates vary widely by carrier. We compare specialty markets to find the right coverage at the right price.</p>
-<p class="mini-proof">For retail and wholesale lumber yards and building material dealers.</p>
+<div class="eyebrow">Logging Contractor Insurance</div>
+<h1 class="hero-title">Free <span class="highlight">Logging Contractor Insurance</span> Review.</h1>
+<p>Logging is a high-hazard class with premiums that swing widely by carrier — especially workers' comp. We compare specialty forest products markets to find the right coverage at the right price for your crew.</p>
+<p class="mini-proof">For logging contractors, timber harvesters, land clearing, and forestry service operations.</p>
 <div class="hero-points">
 <div><span>✓</span> Compare your current premium against specialty forest products markets</div>
 <div><span>✓</span> Spot coverage gaps across property, equipment, and liability</div>
@@ -215,7 +215,7 @@ Forest Products Coverage
 
 <div class="form-card" id="form">
 <div class="form-head">
-<h3>Request Your Free Lumber Yard Insurance Review</h3>
+<h3>Request Your Free Logging Contractor Insurance Review</h3>
 <p>Submit the basics below. A forest products insurance specialist follows up — no obligation to switch.</p>
 </div>
 <div class="form-body">
@@ -226,7 +226,7 @@ Forest Products Coverage
   <div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
 </div>
 <form action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST">
-  <input type="hidden" name="lead_source" value="forestproductscoverage.com/lumber-yard-insurance" />
+  <input type="hidden" name="lead_source" value="forestproductscoverage.com/logging-contractor-insurance" />
   <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <input type="hidden" name="site" value="forestproductscoverage.com" />
   <input type="hidden" name="vertical" value="Forest Products Insurance" />
@@ -411,24 +411,24 @@ Forest Products Coverage
 <div class="container">
 <div class="section-head">
 <div class="eyebrow">Common Questions</div>
-<h2>Lumber Yard Insurance FAQ</h2>
+<h2>Logging Contractor Insurance FAQ</h2>
 </div>
 <div class="faq">
 <div class="faq-item">
-<h3>What does lumber yard insurance cover?</h3>
-<p>Typically property and inventory, general liability for customers and operations, commercial auto for delivery, and workers' comp — we review your whole program for gaps and savings.</p>
+<h3>Why is logging insurance so expensive?</h3>
+<p>Logging is one of the highest-hazard industries, so workers' comp and liability rates are high. They vary a lot by carrier, payroll, and your experience mod, which is why comparing matters.</p>
 </div>
 <div class="faq-item">
-<h3>Is my delivery fleet covered?</h3>
-<p>Commercial auto covers your delivery trucks and boom trucks. We confirm your fleet and hauling exposure are properly insured.</p>
+<h3>Can you help with hard-to-place logging workers' comp?</h3>
+<p>Yes. Logging workers' comp is tough to place — we review class codes and shop specialty markets that write the industry.</p>
 </div>
 <div class="faq-item">
-<h3>How is my lumber inventory valued?</h3>
-<p>Inventory values can swing with lumber prices. We help make sure your property and inventory limits reflect real replacement values so you're not underinsured.</p>
+<h3>Is my logging equipment covered off the jobsite?</h3>
+<p>Inland marine / equipment coverage can protect skidders, loaders, and chainsaws in use, in storage, and in transit. We confirm what your policy actually covers.</p>
 </div>
 <div class="faq-item">
-<h3>Can you help with customer liability claims exposure?</h3>
-<p>Yes — foot traffic, loading, and delivery all create liability exposure. We review your general liability limits against how your yard actually operates.</p>
+<h3>Do you cover log trucking?</h3>
+<p>Yes — log truck liability, physical damage, and filings can be reviewed alongside your logging program.</p>
 </div>
 </div>
 </div>
@@ -438,7 +438,7 @@ Forest Products Coverage
 <div class="container">
 <div class="cta-box">
 <div class="eyebrow">No Cost • No Obligation • No Pressure</div>
-<h2>Request Your Free Lumber Yard Insurance Review</h2>
+<h2>Request Your Free Logging Contractor Insurance Review</h2>
 <p>See if you're overpaying before your renewal locks you into another year. One quick request and a specialist follows up.</p>
 <a href="#form" class="btn btn-primary">Get My Free Review →</a>
 </div>
